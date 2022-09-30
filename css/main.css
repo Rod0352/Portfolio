@@ -1553,7 +1553,7 @@
   }
   
   .s-header.sticky {
-    background-color: #050505;
+    background-color: #000000;
     position: fixed;
     top: 0;
     left: 0;
@@ -1674,7 +1674,7 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
     transition: all .3s;
     position: absolute;
     right: 32px;
@@ -1859,8 +1859,8 @@
    *
    * ------------------------------------------------------------------- */
   .s-intro {
-    width: 100%;
-    height: 100vh;
+    width: 90%;
+    height: 90vh;
     min-height: 792px;
     background-color: #050505;
   }
@@ -1868,7 +1868,7 @@
   .intro-content {
     height: 100%;
     max-width: 1140px;
-    padding-top: 20vh;
+    padding-top: 30vh;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
